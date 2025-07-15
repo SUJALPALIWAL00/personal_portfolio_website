@@ -4,7 +4,7 @@ function App() {
   const [mobile, setMobile] = useState(false);
   return (
     <>
-      
+
 
       <div className="min-h-screen bg-gradient-to-br from-[#e0d4f7] via-[#fbe5f0] to-[#fef6e5]">
         {/* --------------------Navbar-----------------  */}
@@ -18,25 +18,26 @@ function App() {
             <a href='#contactsp' className='hover:text-black cursor-pointer hover:bg-gray-100 rounded-full py-1 px-4 transition-all ease-in duration-100 delay-100 '>Contact</a>
           </ul>
         </div>
- 
+
         {/* Hamburger menu */}
-        <div className='h-10 bg-[#ffffff5d] w-full flex justify-around items-center md:hidden fixed top-0 left-0 z-50'>
+        <div className='h-10 bg-[#ffffff62] w-full flex justify-around items-center md:hidden fixed top-0 left-0 z-50'>
           <div>SUJAL PALIWAL</div>
           <div><i id='menubtn' class="fa-solid fa-bars" onClick={() => setMobile(!mobile)}></i></div>
-        </div>
-        <div id="menulist" className={`w-full bg-[#ffffff36] relative top-10 ${(mobile)? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0' } transition-all ease-in duration-1000 `} > 
-          <ul className='flex flex-col justify-center items-center gap-1'>
-            <li><a className='hover:underline' href="#" onClick={() => setMobile(!mobile)}>Home</a></li>
-            <li><a className='hover:underline' href="#aboutsp">About</a></li>
-            <li><a className='hover:underline' href="#projectssp">Projects</a></li>
-            <li><a className='hover:underline' href="#skillssp">Skills</a></li>
-            <li><a className='hover:underline' href="#experiencesp">Experience</a></li>
-            <li><a className='hover:underline' href="#contactsp">Contact</a></li>
-          </ul>
+          <div id="menulist" className={`w-full bg-[#ffffff72] absolute top-10 ${(mobile) ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'} transition-all ease-in duration-500 `} >
+            <ul className='flex flex-col justify-center items-center gap-1'>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#" >Home</a></li>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#aboutsp">About</a></li>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#projectssp">Projects</a></li>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#skillssp">Skills</a></li>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#experiencesp">Experience</a></li>
+              <li><a className='hover:underline' onClick={() => setMobile(!mobile)} href="#contactsp">Contact</a></li>
+            </ul>
+          </div>
         </div>
 
 
-        {/* --------------------Hero Section-----------------  */} 
+
+        {/* --------------------Hero Section-----------------  */}
         <div id='home' className='flex flex-col items-center pt-20'>
           <img className='w-25 h-25 rounded-full ' src="sp.jpg" alt="profile" />
           <p className='text-[24px] md:text-[36px]  font-bold mt-7'>Hello, I'm Sujal Paliwal </p>
@@ -120,7 +121,7 @@ function App() {
 
 
         {/* --------------------sepration-----------------  */}
-        <div  id='skillssp' className="w-1 h-15 border border-gray-200 bg-gray-200 mx-auto shadow rounded-md my-20"></div>
+        <div id='skillssp' className="w-1 h-15 border border-gray-200 bg-gray-200 mx-auto shadow rounded-md my-20"></div>
 
 
         {/* --------------------Skills Section-----------------  */}
@@ -163,7 +164,7 @@ function App() {
           </div>
         </div>
 
-        
+
         {/* --------------------sepration-----------------  */}
         <div id='contactsp' className="w-1 h-15 border border-gray-200 bg-gray-200 mx-auto shadow rounded-md my-20"></div>
 
@@ -174,9 +175,9 @@ function App() {
             <div className='font-bold text-3xl '>Contact Me</div>
             <div className="form w-full">
               <form action="https://formsubmit.co/0e3d3bc1a30ceb9b5e91fcc426a9304c" method="POST" className='flex flex-col gap-4 mt-10 w-full' target='_blank'>
-                <input id='name' name='name' type="text" className='border py-2 pl-2 ' placeholder='Your Name' required/>
-                <input id='email' name='email' type="email" className='border py-2 pl-2 ' placeholder='Your Email' required/>
-                <textarea id='textarea' name="message" placeholder='Enter Your message here' className='border py-2 pl-2'  rows="10" required></textarea>
+                <input id='name' name='name' type="text" className='border py-2 pl-2 ' placeholder='Your Name' required />
+                <input id='email' name='email' type="email" className='border py-2 pl-2 ' placeholder='Your Email' required />
+                <textarea id='textarea' name="message" placeholder='Enter Your message here' className='border py-2 pl-2' rows="10" required></textarea>
                 <button type='submit' className='border py-2 text-white bg-[#b6a15f] rounded-sm mb-3'>Submit</button>
               </form>
             </div>
@@ -188,15 +189,15 @@ function App() {
         <div className="footer bg-black text-white text-center py-5 relative">
           <p className='md:text-[20px] text-[16px]'>© 2025 Sujal Paliwal. All rights reserved.</p>
           <p className='md:text-[20px] text-[16px]'>Made with <i class="fa-solid fa-heart text-red-500"></i> by Sujal Paliwal</p>
-          <a href="https://wa.me/+918079043867?text=Hello, I found your number from your personal portfolio website" target='_blank'><img src="whatsapp.svg" alt="" width="50px" className=' absolute md:bottom-6 md:right-10 bottom-1 right-1'/></a>
+          <a href="https://wa.me/+918079043867?text=Hello, I found your number from your personal portfolio website" target='_blank'><img src="whatsapp.svg" alt="" width="50px" className=' absolute md:bottom-6 md:right-10 bottom-1 right-1' /></a>
         </div>
       </div>
 
-      
-      
+
+
 
     </>
-    
+
   )
 }
 export default App
