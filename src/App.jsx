@@ -156,7 +156,7 @@ function App() {
           <div className='flex flex-col items-center  w-[40vw] mx-auto'>
             <div className='font-bold text-3xl '>Contact Me</div>
             <div className="form w-full">
-              <form action="https://formsubmit.co/0e3d3bc1a30ceb9b5e91fcc426a9304c" method="POST" className='flex flex-col gap-4 mt-10 w-full'>
+              <form action="https://formsubmit.co/0e3d3bc1a30ceb9b5e91fcc426a9304c" method="POST" className='flex flex-col gap-4 mt-10 w-full' target='_blank' >
                 <input id='name' name='name' type="text" className='border py-2 pl-2 ' placeholder='Your Name' required/>
                 <input id='email' name='email' type="email" className='border py-2 pl-2 ' placeholder='Your Email' required/>
                 <textarea id='textarea' name="message" placeholder='Enter Your message here' className='border py-2 pl-2'  rows="10" required></textarea>
