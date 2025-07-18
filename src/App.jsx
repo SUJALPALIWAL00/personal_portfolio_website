@@ -41,7 +41,7 @@ function App() {
         <div id='home' className='flex flex-col items-center pt-20'>
           <img className='w-25 h-25 rounded-full ' src="sp.jpg" alt="profile" />
           <p className='text-[24px] md:text-[36px]  font-bold mt-7'>Hello, I'm Sujal Paliwal </p>
-          <p className='text-[24px] md:text-[36px]  text-red-500'>Full-Stack Developer</p>
+          <p className='text-[24px] md:text-[36px]  text-red-500  text-2xl font-bold whitespace-nowrap overflow-hidden border-r-2 border-blue-400 animate-typing'>Full-Stack Developer</p>
           <p className='text-[24px] md:text-[36px] '>I love building website with</p>
           <p className='text-[24px] md:text-[36px]  underline font-medium'>React and Node.js</p>
           <div className="button mt-10 flex gap-2 md:gap-4">
