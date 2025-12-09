@@ -73,7 +73,7 @@ function App() {
 
 
         {/* --------------- Projects Section --------------- */}
-        <div id="project" className='flex flex-col items-center md:w-[75vw] w-[90vw] mx-auto'>
+        <div id="project" className='flex flex-col items-center md:w-[75vw] w-[90vw] mx-auto box'>
           <div className='font-bold text-3xl '>Projects</div>
           <div className="cards mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="card1 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
