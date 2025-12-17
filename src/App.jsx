@@ -76,46 +76,61 @@ function App() {
         <div id="project" className='flex flex-col items-center md:w-[75vw] w-[90vw] mx-auto box'>
           <div className='font-bold text-3xl '>Projects</div>
           <div className="cards mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
+
+            <div className="card0 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
+              <img src="food_del.png" alt="Project 0" className='h-60 object-cover rounded-md' />
+              <div className="card-content pl-2">
+                <h3 className='text-xl font-semibold'>Food Delivery App</h3>
+                <p className='text-gray-600'>A responsive food delivery app with cart management, real-time order updates, and smooth user experience.</p>
+                <a href="https://github.com/SUJALPALIWAL00/Food-Delivery-App.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
+              </div>
+            </div>
+
             <div className="card1 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
-              <img src="weather.webp" alt="Project 1" className='h-60 object-cover rounded-md' />
-              <div className="card-content pl-2">
-                <h3 className='text-xl font-semibold'>Weather App</h3>
-                <p className='text-gray-600'>Fetched real-time weather data using OpenWeatherMap API and displayed it with a user-friendly UI.</p>
-                <a href="https://github.com/SUJALPALIWAL00/Weather-App.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
-              </div>
-            </div>
-            <div className="card2 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
-              <img src="todo.webp" alt="Project 2" className='h-60 object-cover rounded-md' />
-              <div className="card-content pl-2">
-                <h3 className='text-xl font-semibold'>To-Do Web App</h3>
-                <p className='text-gray-600'>Created a task management app with CRUD functionality using JavaScript and localStorage.</p>
-                <a href="https://github.com/SUJALPALIWAL00/To-do-list-App.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
-              </div>
-            </div>
-            <div className="card3 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
-              <img src="pp.webp" alt="Project 3" className='h-60 object-cover rounded-md' />
-              <div className="card-content pl-2">
-                <h3 className='text-xl font-semibold'>Portfolio Website</h3>
-                <p className='text-gray-600'>Designed and developed a personal responsive portfolio website using HTML, CSS, JavaScript, and React.</p>
-                <a href="https://github.com/SUJALPALIWAL00/Personal-Portfolio-Website.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
-              </div>
-            </div>
-            <div className="card4 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
-              <img src="calc.webp" alt="Project 4" className='h-60 object-cover rounded-md' />
-              <div className="card-content pl-2">
-                <h3 className='text-xl font-semibold'>Calculator App</h3>
-                <p className='text-gray-600'>Developed a basic calculator using HTML, CSS, and JavaScript with clean UI design. Supported standard arithmetic operations with instant result rendering.</p>
-                <a href="https://github.com/SUJALPALIWAL00/Calculator-app.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
-              </div>
-            </div>
-            <div className="card5 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
-              <img src="nf.webp" alt="Project 5" className='h-60 object-cover rounded-md' />
+              <img src="nf.webp" alt="Project 1" className='h-60 object-cover rounded-md' />
               <div className="card-content pl-2">
                 <h3 className='text-xl font-semibold'>Netflix Clone</h3>
                 <p className='text-gray-600'>Built a responsive OTT platform UI inspired by Netflix using HTML, CSS, and JavaScript. Integrated movie posters, hover effects, and a modern layout with multiple content rows.</p>
                 <a href="https://github.com/SUJALPALIWAL00/Netflix-Clone.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
               </div>
             </div>
+
+            <div className="card2 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
+              <img src="pp.webp" alt="Project 2" className='h-60 object-cover rounded-md' />
+              <div className="card-content pl-2">
+                <h3 className='text-xl font-semibold'>Portfolio Website</h3>
+                <p className='text-gray-600'>Designed and developed a personal responsive portfolio website using HTML, CSS, JavaScript, and React.</p>
+                <a href="https://github.com/SUJALPALIWAL00/Personal-Portfolio-Website.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
+              </div>
+            </div>
+            <div className="card3 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
+              <img src="weather.webp" alt="Project 3" className='h-60 object-cover rounded-md' />
+              <div className="card-content pl-2">
+                <h3 className='text-xl font-semibold'>Weather App</h3>
+                <p className='text-gray-600'>Fetched real-time weather data using OpenWeatherMap API and displayed it with a user-friendly UI.</p>
+                <a href="https://github.com/SUJALPALIWAL00/Weather-App.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
+              </div>
+            </div>
+            <div className="card4 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
+              <img src="todo.webp" alt="Project 4" className='h-60 object-cover rounded-md' />
+              <div className="card-content pl-2">
+                <h3 className='text-xl font-semibold'>To-Do Web App</h3>
+                <p className='text-gray-600'>Created a task management app with CRUD functionality using JavaScript and localStorage.</p>
+                <a href="https://github.com/SUJALPALIWAL00/To-do-list-App.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
+              </div>
+            </div>
+
+
+
+            <div className="card5 bg-gradient-to-br from-[#e8dad2] to-[#fbe5f0]  shadow-md rounded-lg flex flex-col gap-3">
+              <img src="calc.webp" alt="Project 5" className='h-60 object-cover rounded-md' />
+              <div className="card-content pl-2">
+                <h3 className='text-xl font-semibold'>Calculator App</h3>
+                <p className='text-gray-600'>Developed a basic calculator using HTML, CSS, and JavaScript with clean UI design. Supported standard arithmetic operations with instant result rendering.</p>
+                <a href="https://github.com/SUJALPALIWAL00/Calculator-app.git" target="_blank" className='text-blue-500 hover:underline'>View Project</a>
+              </div>
+            </div>
+
           </div>
         </div>
 
